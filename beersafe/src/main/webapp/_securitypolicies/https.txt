@@ -1,0 +1,8 @@
+# Enable redirect from HTTP to HTTPS (valid values: true, false)
+redirect-enabled: true
+
+# Enable HSTS policy (valid values: true, false)
+hsts-enabled: true
+
+# Set HSTS policy (single line)
+hsts-policy: max-age=60

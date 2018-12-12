@@ -1,0 +1,11 @@
+# Enable filter (valid values: true, false)
+enabled: true
+
+# Set policy as report-only (valid values: true, false)
+report-only: false
+
+# List of directives (all directives will be joined as-is into a single policy, so don't forget your semicolons)
+#directive: default-src https: 'unsafe-inline' 'unsafe-eval';
+directive: script-src https://cdn.beersafe.eu/js/;
+directive: script-src https://127.0.0.1:8443/css/custom.css
+directive: script-src 'self';
